@@ -107,7 +107,7 @@ void prims()
     for (int i = 0; i < total_vertex; i++)
     {
         printf("%d - parent-> %d \n",i, parent[i]);
-        minimum_cost = minimum_cost + (graph[i][parent[i]]);
+        minimum_cost = minimum_cost + key[i];
     }
 
     printf("\n\nMinimum cost is : %d\n\n", minimum_cost);
