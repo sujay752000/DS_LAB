@@ -16,7 +16,7 @@ void create_graph()
         }
     }
 
-    // initializing edge with one
+    // initializing edge with weight
     for (int i = 1; i <= total_edge; i++)
     {
         printf("\nEnter the edge weigth in U--V with weight eg U V Weight\n");
